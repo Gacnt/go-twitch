@@ -16,7 +16,7 @@ type Stream struct {
 	AverageFPS  float64   `json:"average_fps"`
 	Delay       int       `json:"delay"`
 	VideoHeight int       `json:"video_height"`
-	IsPlaylist  int       `json:"is_playlist"`
+	IsPlaylist  bool       `json:"is_playlist"`
 	CreatedAt   time.Time `json:"created_at"`
 	ID          uint      `json:"_id"`
 	Channel     Channel   `json:"channel"`
